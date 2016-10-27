@@ -7,12 +7,14 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Zend\\Stratigility\\' => array($vendorDir . '/zendframework/zend-stratigility/src'),
+    'Zend\\Stdlib\\' => array($vendorDir . '/zendframework/zend-stdlib/src'),
     'Zend\\ServiceManager\\' => array($vendorDir . '/zendframework/zend-servicemanager/src'),
     'Zend\\Expressive\\Template\\' => array($vendorDir . '/zendframework/zend-expressive-template/src'),
     'Zend\\Expressive\\Router\\' => array($vendorDir . '/zendframework/zend-expressive-router/src', $vendorDir . '/zendframework/zend-expressive-fastroute/src'),
     'Zend\\Expressive\\' => array($vendorDir . '/zendframework/zend-expressive/src'),
     'Zend\\Escaper\\' => array($vendorDir . '/zendframework/zend-escaper/src'),
     'Zend\\Diactoros\\' => array($vendorDir . '/zendframework/zend-diactoros/src'),
+    'Zend\\Config\\' => array($vendorDir . '/zendframework/zend-config/src'),
     'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),
     'Interop\\Container\\' => array($vendorDir . '/container-interop/container-interop/src/Interop/Container'),
     'FastRoute\\' => array($vendorDir . '/nikic/fast-route/src'),

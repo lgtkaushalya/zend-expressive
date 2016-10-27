@@ -14,12 +14,14 @@ class ComposerStaticInit31c0029a793b723481b3df07a0f0da4e
         'Z' => 
         array (
             'Zend\\Stratigility\\' => 18,
+            'Zend\\Stdlib\\' => 12,
             'Zend\\ServiceManager\\' => 20,
             'Zend\\Expressive\\Template\\' => 25,
             'Zend\\Expressive\\Router\\' => 23,
             'Zend\\Expressive\\' => 16,
             'Zend\\Escaper\\' => 13,
             'Zend\\Diactoros\\' => 15,
+            'Zend\\Config\\' => 12,
         ),
         'P' => 
         array (
@@ -43,6 +45,10 @@ class ComposerStaticInit31c0029a793b723481b3df07a0f0da4e
         'Zend\\Stratigility\\' => 
         array (
             0 => __DIR__ . '/..' . '/zendframework/zend-stratigility/src',
+        ),
+        'Zend\\Stdlib\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zendframework/zend-stdlib/src',
         ),
         'Zend\\ServiceManager\\' => 
         array (
@@ -68,6 +74,10 @@ class ComposerStaticInit31c0029a793b723481b3df07a0f0da4e
         'Zend\\Diactoros\\' => 
         array (
             0 => __DIR__ . '/..' . '/zendframework/zend-diactoros/src',
+        ),
+        'Zend\\Config\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zendframework/zend-config/src',
         ),
         'Psr\\Http\\Message\\' => 
         array (

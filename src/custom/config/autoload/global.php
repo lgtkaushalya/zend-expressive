@@ -4,7 +4,12 @@ return [
         'employee' => [
             'name' => 'employee',
             'path' => '/Employee',
-            'middleware' => 'Custom\EmployeeCustomController',
+            'middleware' => 
+              [
+                'Custom\SecurityFilter',
+                'Custom\EmployeeCustomController',
+                'Custom\PostExecutionFilter'
+              ],
             'allowed_methods' => [ 'GET' => 'GET', 'POST' => 'POST' ],
         ]
     ],

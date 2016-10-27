@@ -1,5 +1,4 @@
 <?php
-
 use Zend\Config\Factory as ConfigFactory;
 
 return ConfigFactory::fromFiles(

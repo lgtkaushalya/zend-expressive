@@ -1,17 +1,17 @@
 <?php
-namespace Application;
+namespace Custom;
 
 use Application\Employee;
 use Zend\Diactoros\Response\JsonResponse;
 
-class EmployeeController {
+class EmployeeCustomController {
     public function __invoke($request, $response, $next) {
       
       if ($request->getMethod() == 'GET') {
           
           $id = $request->getAttribute('id');
           $employee = new Employee();
-          return new JsonResponse(array_merge(array('message' => 'Results from base controller'), $employee->getEmployee($id)));
+          return new JsonResponse(array_merge(array('message' => 'Results from custom controller') , $employee->getEmployee($id)));
       } elseif($request->getMethod() == 'POST') {
           
           $employee = new Employee();

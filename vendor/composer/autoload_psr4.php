@@ -18,5 +18,6 @@ return array(
     'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),
     'Interop\\Container\\' => array($vendorDir . '/container-interop/container-interop/src/Interop/Container'),
     'FastRoute\\' => array($vendorDir . '/nikic/fast-route/src'),
-    'Application\\' => array($baseDir . '/src'),
+    'Custom\\' => array($baseDir . '/src/custom'),
+    'Application\\' => array($baseDir . '/src/base'),
 );

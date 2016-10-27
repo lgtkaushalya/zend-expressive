@@ -1,7 +1,7 @@
 <?php
 return [
     'services' => [
-        'config' => include __DIR__ . '/../config.php',
+        'config' => include __DIR__ . '/../../../../config/config.php',
     ],
     'invokables' => [
         'Application\HelloWorld' => 'Application\HelloWorld',

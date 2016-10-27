@@ -13,9 +13,10 @@ $app->get('/', function ($request, $response, $next) {
     return $response;
 });
 
-$app->get('/Employee', function ($request, $response, $next) {
+$app->get('/Employee[/{id}]', function ($request, $response, $next) {
+    $id = $request->getAttribute('id');
     $employee = new Employee();
-    return new JsonResponse($employee->getEmployee());
+    return new JsonResponse($employee->getEmployee($id));
 });
 
 $app->post('/Employee', function ($request, $response, $next) {

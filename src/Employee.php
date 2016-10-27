@@ -5,9 +5,13 @@ use Zend\Diactoros\Response\JsonResponse;
 
 class Employee extends BaseEntity {
 
-   function getEmployee() {
+   function getEmployee($id = null) {
      $this->createMysqlConnection();
      $query = 'SELECT * FROM employee';
+
+     if ($id) {
+       $query .= ' WHERE `id`=\''.$id.'\'';
+     }
      $result = $this->getData($this->executeQuery($query));
      $this->closeConnection();
      return $result;

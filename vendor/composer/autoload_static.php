@@ -19,6 +19,7 @@ class ComposerStaticInit31c0029a793b723481b3df07a0f0da4e
             'Zend\\Expressive\\Template\\' => 25,
             'Zend\\Expressive\\Router\\' => 23,
             'Zend\\Expressive\\' => 16,
+            'Zend\\EventManager\\' => 18,
             'Zend\\Escaper\\' => 13,
             'Zend\\Diactoros\\' => 15,
             'Zend\\Config\\' => 12,
@@ -70,6 +71,10 @@ class ComposerStaticInit31c0029a793b723481b3df07a0f0da4e
         'Zend\\Expressive\\' => 
         array (
             0 => __DIR__ . '/..' . '/zendframework/zend-expressive/src',
+        ),
+        'Zend\\EventManager\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zendframework/zend-eventmanager/src',
         ),
         'Zend\\Escaper\\' => 
         array (

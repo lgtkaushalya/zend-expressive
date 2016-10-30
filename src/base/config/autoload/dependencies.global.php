@@ -9,5 +9,6 @@ return [
     ],
     'factories' => [
         'Zend\Expressive\Application' => 'Zend\Expressive\Container\ApplicationFactory',
+        'Custom\CustomEvent' => 'Custom\CustomEvent'
     ],
 ];

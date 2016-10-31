@@ -14,4 +14,9 @@ return [
             'allowed_methods' => [ 'GET' => 'GET', 'POST' => 'POST' ],
         ]
     ],
+    'console' => [
+        'commands' => [
+            Application\Command\GreetCommand::class,
+        ],
+    ],
 ];

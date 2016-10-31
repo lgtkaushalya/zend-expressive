@@ -9,6 +9,7 @@ return [
     ],
     'factories' => [
         'Zend\Expressive\Application' => 'Zend\Expressive\Container\ApplicationFactory',
-        'Custom\CustomEvent' => 'Custom\CustomEvent'
+        'Custom\CustomEvent' => 'Custom\CustomEvent',
+        Application\Command\GreetCommand::class => Application\Command\GreetCommandFactory::class,
     ],
 ];
